@@ -1,0 +1,328 @@
+.anuj-singh-wrapper {
+  background-color: #070000a1;
+  border: 0 solid #0000;
+  border-radius: 0;
+  flex-flow: column;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.email-icon {
+  width: 100px;
+  transition: transform .3s;
+}
+
+.email-icon:hover {
+  transform: scale(1.2);
+}
+
+.heading-3.job-title {
+  color: #fff;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: 14px;
+  font-weight: 700;
+}
+
+.heading-3.page-title {
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 90px;
+}
+
+.italic-text {
+  text-align: center;
+  font-size: 60px;
+}
+
+.anuj-singh {
+  background-image: url('../images/anujsingh.jpg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+
+.phone-number-icon {
+  width: 70px;
+  transition: transform .3s;
+}
+
+.phone-number-icon:hover {
+  transform: scale(1.2);
+}
+
+.div-block-4 {
+  display: none;
+}
+
+.page-title-container {
+  background-color: #0000008a;
+  border: 0 solid #0000;
+  border-radius: 16px;
+  margin-top: -26px;
+  padding-top: 5px;
+  padding-bottom: 29px;
+  font-size: 100%;
+  line-height: 100%;
+  box-shadow: 16px 2px 9px 10px #00000087;
+}
+
+.page-title-wrapper {
+  margin-top: 591px;
+  font-size: 100%;
+  line-height: 100%;
+}
+
+.anuj-singh-contact-info {
+  grid-column-gap: 6vw;
+  grid-row-gap: 6vw;
+  justify-content: space-around;
+  align-self: flex-start;
+  align-items: center;
+  margin-top: 14px;
+  margin-left: 2%;
+  display: flex;
+}
+
+.linkedin-icon {
+  width: 75px;
+  transition: transform .3s;
+}
+
+.linkedin-icon:hover {
+  transform: scale(1.2);
+}
+
+.utility-page-wrap {
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+  max-height: 100%;
+  display: flex;
+}
+
+.utility-page-content {
+  text-align: center;
+  flex-direction: column;
+  width: 260px;
+  display: flex;
+}
+
+.utility-page-form {
+  flex-direction: column;
+  align-items: stretch;
+  display: flex;
+}
+
+.body {
+  overflow: hidden;
+}
+
+@media screen and (max-width: 991px) {
+  .email-icon, .phone-number-icon {
+    transition: transform .3s;
+  }
+
+  .anuj-singh-contact-info {
+    grid-column-gap: 11vw;
+    grid-row-gap: 11vw;
+    align-self: center;
+  }
+
+  .linkedin-icon {
+    transition: transform .3s;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .anuj-singh-wrapper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .heading-3.job-title {
+    z-index: 100;
+    margin-top: -104px;
+    margin-left: 229px;
+    font-size: 4vh;
+    position: relative;
+  }
+
+  .heading-3.page-title {
+    text-align: left;
+    margin-top: 10px;
+    padding-left: 49px;
+    font-size: 5.5vw;
+  }
+
+  .italic-text {
+    font-size: 4.5vw;
+  }
+
+  .page-title-container {
+    margin-top: 0;
+    margin-bottom: 62px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .page-title-wrapper {
+    margin-top: 0;
+  }
+
+  .anuj-singh-contact-info {
+    grid-column-gap: 5vw;
+    grid-row-gap: 5vw;
+    flex-flow: column;
+    align-self: flex-start;
+    width: 50px;
+    margin-top: 33px;
+    margin-right: -2%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .anuj-singh-wrapper {
+    background-color: #0000009e;
+    border-radius: 0;
+    flex-flow: column;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+  }
+
+  .email-icon {
+    width: 120%;
+    max-width: none;
+    transition: transform .2s;
+  }
+
+  .email-icon:hover {
+    transform: scale(1.2);
+  }
+
+  .anuj-singh-linkedin-profile {
+    width: 13vw;
+    height: auto;
+  }
+
+  .heading-3 {
+    color: #fff;
+    text-align: center;
+  }
+
+  .heading-3.job-title {
+    text-align: center;
+    margin-top: -51px;
+    margin-bottom: 213px;
+    margin-left: 0;
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .heading-3.page-title {
+    text-align: center;
+    background-color: #0000;
+    border-radius: 12px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 0;
+    font-size: 10vw;
+  }
+
+  .anuj-singh-phone-number {
+    width: 8vw;
+  }
+
+  .italic-text {
+    font-size: 8vw;
+    line-height: 100%;
+  }
+
+  .anuj-singh-email-address {
+    width: 13vw;
+  }
+
+  .anuj-singh {
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-flow: column;
+    height: 100vh;
+    display: flex;
+  }
+
+  .phone-number-icon {
+    width: 120%;
+    max-width: none;
+    transition: transform .2s;
+  }
+
+  .phone-number-icon:hover {
+    transform: scale(1.2);
+  }
+
+  .div-block-4 {
+    margin-top: auto;
+  }
+
+  .page-title-container {
+    background-color: #07000094;
+    border: 1px solid #0000005e;
+    border-radius: 11px;
+    margin-top: -35px;
+    padding-bottom: 5px;
+    box-shadow: 0 2px 5px #000000ad;
+  }
+
+  .page-title-wrapper {
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    height: auto;
+    margin-top: 486px;
+    padding-top: 0;
+    display: block;
+  }
+
+  .anuj-singh-contact-info {
+    grid-column-gap: 27vw;
+    grid-row-gap: 27vw;
+    flex-flow: row;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    width: 100vw;
+    margin-top: 11px;
+    margin-left: auto;
+    margin-right: 0%;
+    display: flex;
+  }
+
+  .linkedin-icon {
+    width: 100%;
+    transition: transform .2s;
+  }
+
+  .linkedin-icon:hover {
+    transform: scale(1.2);
+  }
+
+  .body {
+    overflow: hidden;
+  }
+}
+
+
